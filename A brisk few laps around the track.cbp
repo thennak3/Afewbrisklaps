@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="A brisk few laps around the track" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/A brisk few laps around the track" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="car.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="car.h" />
+		<Unit filename="collider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collider.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maths.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maths.h" />
+		<Unit filename="offfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="offfile.h" />
+		<Unit filename="qdbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="qdbmp.h" />
+		<Unit filename="vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
